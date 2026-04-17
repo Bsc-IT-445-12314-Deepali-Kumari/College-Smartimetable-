@@ -41,33 +41,6 @@ Minimize late-slot usage
 Apply teacher-priority cost
 Implementation file: timetable.py
 
-Project Structure
-SmartTimetable/
-├── app.py                         # Main Flask app (routes + workflows)
-├── timetable.py                   # ILP model and timetable generation
-├── templates/                     # All UI templates
-│   ├── login.html
-│   ├── admin.html
-│   ├── admin_edit_preference.html
-│   ├── admin_edit_event.html
-│   ├── admin_edit_timetable.html
-│   ├── teacher_dashboard.html
-│   ├── student_dashboard.html
-│   ├── student_timetable.html
-│   └── profile.html
-├── static/
-│   └── profile_pics/              # Uploaded profile pictures
-├── users.txt                      # Approved users
-├── users_pending.txt              # Pending signup requests
-├── approval_history.txt           # Signup approve/reject history
-├── preference_requests.txt        # Pending teacher preferences
-├── preference_history.txt         # Preference decision history
-├── data.txt                       # Approved course preferences (generation source)
-├── timetable_output.txt           # Current generated timetable
-├── timetable_history.txt          # Semester-wise generation history
-├── events.txt                     # Calendar events
-└── README.md
-
 How to Start the Project
 1. Open terminal in project folder
 cd /d c:\Users\LENOVO\Desktop\MiniProject2\Code\SmartTimetable
