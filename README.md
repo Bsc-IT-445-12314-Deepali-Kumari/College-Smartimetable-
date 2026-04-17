@@ -36,10 +36,10 @@ View academic calendar and event details
 Mathematical Timetable Generation (Brief)
 
 Objective:
-Minimize preference violations
-Minimize late-slot usage
-Apply teacher-priority cost
-Implementation file: timetable.py
+Minimize preference violations,
+Minimize late-slot usage,
+Apply teacher-priority cost,
+Implementation file: timetable.py.
 
 How to Start the Project
 1. Open terminal in project folder
@@ -56,7 +56,7 @@ set PORT=5050
 python app.py
 Then open:
 
-http://127.0.0.1:5050/login
+http://127.0.0.1:5050/login.
 Recommended Demo Flow
 Login as admin
 Approve pending teacher/student accounts
@@ -64,4 +64,4 @@ Approve teacher preference requests
 Open Generate Timetable section
 Review Generation Stack
 Generate timetable
-Verify timetable in admin, teacher, and student dashboards
+Verify timetable in admin, teacher, and student dashboards.
