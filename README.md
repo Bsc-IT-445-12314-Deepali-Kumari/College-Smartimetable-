@@ -43,7 +43,7 @@ Implementation file: timetable.py.
 
 How to Start the Project
 1. Open terminal in project folder
-cd /d c:\Users\LENOVO\Desktop\MiniProject2\Code\SmartTimetable
+cd /d c:\Users\Desktop\Code\SmartTimetable
 2. Install dependencies (first time only)
 pip install flask pulp
 3. Run the server
